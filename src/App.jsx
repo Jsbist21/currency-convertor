@@ -48,8 +48,7 @@ return (
                           currencyOptions= {options}
                           onCurrencyChange= {(currency) => setAmount(amount)}
                           selectCurrency= {from}
-                          onAmountChange={(amount) => setAmount(amount)}
-                          
+                          onAmountChange={(amount) => setAmount(amount)}            
                       />
                   </div>
                   <div className="relative w-full h-0.5">
@@ -67,7 +66,7 @@ return (
                           amount={convertedAmount}
                           currencyOptions= {options}
                           onCurrencyChange= {(currency) => setTo(currency)}
-                          selectCurrency= {from}
+                          selectCurrency= {to}
                           amountDisable
                       />
                   </div>
